@@ -1,0 +1,82 @@
+.inputForm {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px 20px 0px 20px;
+}
+
+.inputForm button {
+  color: rgb(187, 187, 187);
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(44, 44, 44);
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.inputForm button:hover {
+  background-color: black;
+}
+
+.inputForm input {
+  background-color: rgb(44, 44, 44);
+  color: rgb(207, 207, 207);
+  border: none;
+  border-bottom: 1px solid white;
+  margin-right: 3px;
+  width: 100%;
+}
+
+button {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.inputForm input {
+  padding-left: 8px;
+}
+
+/* TODOLISTO css */
+
+.taskCompleted {
+  text-decoration: line-through;
+  color: rgb(119, 119, 119) !important;
+}
+
+.taskContainer {
+  padding: 20px;
+}
+
+.task {
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task button {
+  color: rgb(187, 187, 187);
+  padding: 5px;
+  max-height: 30px;
+  margin: 2px;
+  background-color: rgb(44, 44, 44);
+  border: none;
+  border-bottom: 1px solid white;
+}
+.task button:hover {
+  background-color: black;
+}
+
+.task p {
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+  padding: 3px;
+  overflow: auto;
+  border-radius: 6px;
+  color: whitesmoke;
+}
+
+button {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
